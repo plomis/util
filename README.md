@@ -8,6 +8,8 @@ npm i @plomis/util
 
 ## API
 
+* [addEventlistener](#addEventlistener)
+
 #### addEventlistener
 
 > `(target: Element, eventType: string, listener: Function): { remove: Function }`
