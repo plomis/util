@@ -61,7 +61,7 @@ const { offsetLeft, offsetRight } = getClientSize(document.body);
 ```js
 import { requestAnimationFrame } from 'util';
 this.animation = requestAnimationFrame(() => {
-  // do sometings
+  // do someting
 });
 ```
 
@@ -76,5 +76,5 @@ import { requestAnimationFrame, cancelAnimationFrame } from 'util';
 this.animation = requestAnimationFrame(() => {
   // do sometings
 });
-cancelAnimationFrame(this.animation)
+cancelAnimationFrame(this.animation);
 ```
