@@ -22,8 +22,8 @@ npm i @plomis/util
 ###### Usage
 
 ```js
-import { addEventlistener } from 'util';
-this.eventListener = addEventListener(document.body, 'click', function(e){
+import util from '@plomis/util';
+this.eventListener = util.addEventListener(document.body, 'click', function(e){
   console.log(e.target); // works for ie
   
   console.log(e.nativeEvent); // native dom event
@@ -36,8 +36,8 @@ this.eventListener.remove(); // delete event listener
 ###### Usage
 
 ```js
-import { getClientSize } from 'util';
-const { clintHeight, clintWidth } = getClientSize();
+import util from '@plomis/util';
+const { clintHeight, clintWidth } = util.getClientSize();
 ```
 
 #### getOffset
@@ -47,8 +47,8 @@ const { clintHeight, clintWidth } = getClientSize();
 ###### Usage
 
 ```js
-import { getOffset } from 'util';
-const { offsetLeft, offsetRight } = getClientSize(document.body);
+import util from '@plomis/util';
+const { offsetLeft, offsetRight } = util.getClientSize(document.body);
 ```
 
 
@@ -59,8 +59,8 @@ const { offsetLeft, offsetRight } = getClientSize(document.body);
 ###### Usage
 
 ```js
-import { requestAnimationFrame } from 'util';
-this.animation = requestAnimationFrame(() => {
+import util from '@plomis/util';
+this.animation = util.requestAnimationFrame(() => {
   // do someting
 });
 ```
@@ -72,9 +72,9 @@ this.animation = requestAnimationFrame(() => {
 ###### Usage
 
 ```js
-import { requestAnimationFrame, cancelAnimationFrame } from 'util';
-this.animation = requestAnimationFrame(() => {
+import util from '@plomis/util';
+this.animation = util.requestAnimationFrame(() => {
   // do sometings
 });
-cancelAnimationFrame(this.animation);  // delete animation frame
+util.cancelAnimationFrame(this.animation);  // delete animation frame
 ```
