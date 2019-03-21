@@ -23,12 +23,12 @@ npm i @plomis/util
 
 ```js
 import { addEventlistener } from 'util';
-const handler = addEventListener(document.body, 'click', function(e){
+this.eventListener = addEventListener(document.body, 'click', function(e){
   console.log(e.target); // works for ie
   
   console.log(e.nativeEvent); // native dom event
 });
-handler.remove(); // detach event listener
+this.eventListener.remove(); // detach event listener
 ```
 
 #### getClientSize
