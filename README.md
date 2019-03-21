@@ -19,8 +19,6 @@ npm i @plomis/util
 
 > `(target: Element, eventType: string, listener: Function): { remove: Function }`
 
-###### Useage
-
 ```js
 import { addEventlistener } from 'util';
 this.eventListener = addEventListener(document.body, 'click', function(e){
@@ -33,8 +31,6 @@ this.eventListener.remove(); // delete event listener
 
 #### getClientSize
 
-###### Useage
-
 ```js
 import { getClientSize } from 'util';
 const { clintHeight, clintWidth } = getClientSize();
@@ -43,8 +39,6 @@ const { clintHeight, clintWidth } = getClientSize();
 #### getOffset
 
 > `(target: Element)`
-
-###### Useage
 
 ```js
 import { getOffset } from 'util';
@@ -56,8 +50,6 @@ const { offsetLeft, offsetRight } = getClientSize(document.body);
 
 > `(fc: function)`
 
-###### Useage
-
 ```js
 import { requestAnimationFrame } from 'util';
 this.animation = requestAnimationFrame(() => {
@@ -68,8 +60,6 @@ this.animation = requestAnimationFrame(() => {
 #### cancelAnimationFrame
 
 > `(fc: function)`
-
-###### Useage
 
 ```js
 import { requestAnimationFrame, cancelAnimationFrame } from 'util';
