@@ -9,6 +9,11 @@ npm i @plomis/util
 ## API
 
 * [addEventlistener](#addEventlistener)
+* [getClientSize](#getClientSize)
+* [getOffset](#getOffset)
+* [requestAnimationFrame](#requestAnimationFrame)
+* [cancelAnimationFrame](#cancelAnimationFrame)
+
 
 #### addEventlistener
 
