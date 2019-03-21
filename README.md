@@ -28,7 +28,7 @@ this.eventListener = addEventListener(document.body, 'click', function(e){
   
   console.log(e.nativeEvent); // native dom event
 });
-this.eventListener.remove(); // detach event listener
+this.eventListener.remove(); // delete event listener
 ```
 
 #### getClientSize
@@ -76,5 +76,5 @@ import { requestAnimationFrame, cancelAnimationFrame } from 'util';
 this.animation = requestAnimationFrame(() => {
   // do sometings
 });
-cancelAnimationFrame(this.animation);
+cancelAnimationFrame(this.animation);  // delete animation frame
 ```
