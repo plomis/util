@@ -1,13 +1,15 @@
 {
   "name": "@plomis/util",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "常用方法",
   "main": "lib/index.js",
   "module": "es/index.esm.js",
   "scripts": {
     "start": "parcel public/index.html -p 9000",
     "build": "rimraf dist && parcel build public/index.html -d dist --public-url /react-canledar/dist/",
-    "compile": "rimraf lib && rimraf es && node rollup.config.js"
+    "compile": "rimraf lib && rimraf es && node rollup.config.js",
+    "prepare": "npm run build && npm run compile",
+    "pub": "npm publish --access public"
   },
   "files": [
     "dist",
