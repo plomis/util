@@ -9,6 +9,6 @@ const util = {
   cancelAnimationFrame,
   getClientSize,
   getOffset
-}
+};
 
 export default util;
