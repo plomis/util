@@ -78,7 +78,9 @@
     "rollup-plugin-uglify": "^6.0.2"
   },
   "dependencies": {
-    "add-dom-event-listener": "1.x",
-    "react-dom": "^16.8.6"
+    "add-dom-event-listener": ">= 1.x"
+  },
+  "peerDependencies": {
+    "react-dom": ">= 16.x.x"
   }
 }
