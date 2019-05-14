@@ -1,6 +1,6 @@
 {
   "name": "@plomis/util",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "常用方法",
   "main": "lib/index.js",
   "module": "es/index.js",
